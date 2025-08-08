@@ -1,7 +1,5 @@
-export type TodoStatus = "todo" | "in_progress" | "done";
-
-export interface Todo {
+export interface TodoType {
   id: number;
   title: string;
-  status: TodoStatus;
+  status: boolean;
 }
