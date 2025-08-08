@@ -59,7 +59,6 @@ export const List = () => {
     <div>
       <h2>Todo List</h2>
 
-      {/* 입력창 + 추가 버튼 */}
       <div style={{ marginBottom: 16 }}>
         <input
           type="text"
